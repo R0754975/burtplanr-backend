@@ -8,6 +8,8 @@ router.get('/', projectController.index);
 
 router.get('/voting', projectController.getProjectsForVoting);
 
+router.get('/starting', projectController.getProjectsForHome);
+
 // GET project by id
 router.get('/:id', projectController.getProjectById);
 
